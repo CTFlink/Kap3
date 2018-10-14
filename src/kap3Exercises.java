@@ -64,12 +64,12 @@ public class kap3Exercises {
         int staticGuess = 17;
 
         //Her laves der 2 lotto tal ud fra ovenstående lotto tal
-        int lotteryDigit1 = lottery / 10;
-        int lotteryDigit2 = lottery % 10;
+        int lotteryDigit1 = lottery / 10; //her opsamles det første tal (ti'eren)
+        int lotteryDigit2 = lottery % 10; //her opsamles det første tal (en'eren)
 
         //Her gribes brugerens gæt
-        int guessDigit1 = guess / 10;
-        int guessDigit2 = guess % 10;
+        int guessDigit1 = guess / 10; //her opsamles det første tal (ti'eren)
+        int guessDigit2 = guess % 10; //her opsamles det andet tal (en'eren)
 
         System.out.println("The lottery number is " + lottery);
 
