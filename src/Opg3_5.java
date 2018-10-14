@@ -51,5 +51,6 @@ public class Opg3_5 {
         System.out.println("Hvis det er " + ugedag + " og der er gået " + forgangneDage + " dage, så er det nu " + ugedag3);
 
 
+
     }
 }
