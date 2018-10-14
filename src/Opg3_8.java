@@ -30,10 +30,29 @@ public class Opg3_8 {
         int second = (int) threeDigits % 100 / 10;
         int third = threeDigits % 10;
 
+        int temp1=0;
+        int temp2=0;
+        int temp3=0;
 
-        System.out.println(first);
-        System.out.println(second);
-        System.out.println(third);
+        //Her sorteres det første tal i enten temp1, temp2 eller temp3
+        if (first<second && first<third ) temp1=first;
+        else if ((first<second && first>third) || (first <third && first >second)) temp2=first;
+        else temp3 =first;
+
+        //Her sorteres det andet tal
+        if (second< first && second< third) temp1=second;
+        else if ((second< first && second > third) || (second <third && second > first))temp2=second;
+        else temp3=second;
+
+        //Her sorteres det tredje tal
+        if (third<first && third<second) temp1=third;
+        else if ((third<first && third >second) || (third <second && third > first)) temp2=third;
+        else temp3=third;
+
+
+        System.out.println(temp3);
+        System.out.println(temp2);
+        System.out.println(temp1);
         System.out.println("ok");
     }
 }
