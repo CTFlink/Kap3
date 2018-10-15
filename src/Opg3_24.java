@@ -11,6 +11,7 @@ public class Opg3_24 {
         String color = null;
         String card = null;
 
+
         //Her konverteres det valgte kulør nummer om til ovenstående color String
         switch (colorNumber){
             case 0: color = "Hjerter";
