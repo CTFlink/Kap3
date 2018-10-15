@@ -14,15 +14,15 @@ public class Opg3_8 {
 
         int threeDigits=0;
 
-        int i = 0;
-        while (i < 1) {
-            //Her assigneres brugerens input til variablen 'threeDigits'
+        int k = 0;
+        while (k < 1) {
+            //Her assignes brugerens input til variablen 'threeDigits'
             System.out.println("Indtast et 3 cifret tal");
             threeDigits = input.nextInt();
 
             //Her undersøges om brugerens input er 3 cifre langt
             int length = String.valueOf(threeDigits).length();
-            if (length==3){i++;}
+            if (length==3){k++;}
             else System.out.println("Dit indtastede tal skal være 3 cifre langt. Eksempelvis: '123'");
         }
 
