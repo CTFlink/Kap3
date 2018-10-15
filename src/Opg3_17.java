@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Opg3_16 {
+public class Opg3_17 {
     public static void main(String[] args) {
 
         //Sten Saks Papir spil
